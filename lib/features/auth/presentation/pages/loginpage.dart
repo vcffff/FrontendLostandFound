@@ -28,8 +28,7 @@ class _LoginPageState extends State<LoginPage> {
             ScaffoldMessenger.of(context).showSnackBar(
               SnackBar(content: Text("Welcome, ${state.user.email}!")),
             );
-            // Тут можно переходить на другую страницу:
-            // Navigator.pushReplacement(context, MaterialPageRoute(builder: (_) => HomePage()));
+          
           }
         },
         builder: (context, state) {
