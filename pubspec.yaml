@@ -30,7 +30,12 @@ environment:
 dependencies:
   bloc: ^9.0.0
   cupertino_icons: ^1.0.8
+  dart_either: ^2.0.0
+  dartz: ^0.10.1
   dio: ^5.9.0
+  equatable: ^2.0.7
+  firebase_auth: ^6.0.2
+  firebase_core: 4.1.0
   flutter:
     sdk: flutter
   flutter_bloc: ^9.1.1
@@ -49,9 +54,9 @@ flutter:
   # the material Icons class.
   uses-material-design: true
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
-  #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/devicon_google.png
+    - assets/jihc.png
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
   # For details regarding adding assets from package dependencies, see
